@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <TextView
+        android:id="@+id/binLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blue bin"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="48sp" />
+    <TextView
+        android:id="@+id/divertedItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have diverted 420 items from the landfill."
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/divertedPounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1337 pounds of garbage diverted."
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/cupsCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="65535 plastic cups"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/methaneCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="4096 tonnes of methane saved"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>
